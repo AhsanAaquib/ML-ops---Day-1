@@ -1,6 +1,7 @@
 import itertools
 
-def traveling_salesman_bruteforce_es2(distance_matrix):
+def traveling_salesman_bruteforce_e1(distance_matrix):
+
     """
     Solves the Traveling Salesman Problem using brute-force.
     Args:
@@ -30,6 +31,11 @@ if __name__ == "__main__":
         [15, 35, 0, 30],
         [20, 25, 30, 0]
     ]
-    path, cost = traveling_salesman_bruteforce_es2(dist)
+
+    path, cost = traveling_salesman_bruteforce_e1(dist)
+
     print("Optimal path:", path)
     print("Minimum cost:", cost)
+
+    # The above code is a brute-force solution for the Traveling Salesman Problem.
+    # It generates all permutations of the cities (except the starting city),
