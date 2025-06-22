@@ -1,4 +1,6 @@
+
 def bubble_sort_main(arr):
+
     n = len(arr)
     for i in range(n):
         for j in range(0, n - i - 1):
@@ -65,3 +67,6 @@ if __name__ == "__main__":
     print("Insertion Sort:", insertion_sort(arr.copy()))
     print("Quick Sort:", quick_sort(arr.copy()))
     print("Merge Sort:", merge_sort(arr.copy()))
+
+# This code provides implementations of various sorting algorithms in Python, including bubble sort, selection sort, insertion sort, quick sort, and merge sort.
+# Each function sorts an array and returns the sorted array. The example usage at the end demonstrates how to call each sorting function with a sample array.
